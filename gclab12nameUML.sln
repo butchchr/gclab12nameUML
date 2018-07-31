@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gclab12nameUML", "gclab12nameUML\gclab12nameUML.csproj", "{06299020-BEE7-460E-AC44-745627B969A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person", "Person\Person.csproj", "{CF451C4B-5650-4E53-B152-F0D4E12B08C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{06299020-BEE7-460E-AC44-745627B969A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06299020-BEE7-460E-AC44-745627B969A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06299020-BEE7-460E-AC44-745627B969A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF451C4B-5650-4E53-B152-F0D4E12B08C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF451C4B-5650-4E53-B152-F0D4E12B08C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF451C4B-5650-4E53-B152-F0D4E12B08C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF451C4B-5650-4E53-B152-F0D4E12B08C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
