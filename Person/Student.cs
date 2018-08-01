@@ -6,15 +6,35 @@ namespace gclab12nameUML
 {
     public class Student : Person
     {
-        public string Program { get; }
-        public int Year { get; }
-        public double Fee { get; }
+        private string program;
+        private int year;
+        private double fee;
 
         public Student(string name, string address, string program, int year, double fee) : base (name, address)
         {
-            Program = program;
-            Year = year;
-            Fee = fee;
+            this.program = program;
+            this.year = year;
+            this.fee = fee;
+        }
+
+        public string Program
+        {
+            get { return program; }
+        }
+
+        public int Year
+        {
+            get { return year; }
+        }
+
+        public double Fee
+        {
+            get { return fee; }
+        }
+
+        public override string ToString()
+        {
+            return ($"Student[Person[name={Name},address={Address}],program={Program},year={Year},fee={Fee}]");
         }
     }
 }

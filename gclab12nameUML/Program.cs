@@ -13,7 +13,8 @@ namespace gclab12nameUML
             List<Person> People = new List<Person>();
             
             People.Add(new Student("Brad Bradson", "120 Bradford", "Brewmastering", 4, 1200));
-            People.Add(new Staff("Ross Rossson", "230 Rossford", "Hill Middle", 45000));
+            People.Add(new Staff("Ross Rossen", "230 Rossford", "Hill Middle", 45000));
+            People.Add(new Person("Jacob Jakeson", "340 Jakeway"));
 
             foreach (Person them in People)
             {
