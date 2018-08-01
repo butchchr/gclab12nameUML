@@ -10,7 +10,13 @@ namespace gclab12nameUML
         private int year;
         private double fee;
 
-        public Student(string name, string address, string program, int year, double fee) : base (name, address)
+        public Student()
+            : base()
+        {
+        }
+
+        public Student(string name, string address, string program, int year, double fee)
+            : base(name, address)
         {
             this.program = program;
             this.year = year;

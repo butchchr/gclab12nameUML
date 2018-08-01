@@ -9,7 +9,13 @@ namespace gclab12nameUML
         private string school;
         private double pay;
 
-        public Staff(string name, string address, string school, double pay) :base (name, address)
+        public Staff()
+              : base()
+        {
+        }
+
+        public Staff(string name, string address, string school, double pay)
+            : base(name, address)
         {
             this.school = school;
             this.pay = pay;

@@ -7,6 +7,10 @@ namespace gclab12nameUML
         private string name;
         private string address;
 
+        public Person()
+        {
+        }
+
         public Person (string name, string address)
         {
             this.name = name;
